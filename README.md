@@ -1,13 +1,8 @@
 # ktulatex
 
-`ktulatex` yra *neoficialus*, minimalistinis, reikalavimus atitinkantis KTU
-informatikos bakalauro baigiamojo darbo rašto šablonas. 
+`ktulatex` yra *neoficialus*, minimalistinis, reikalavimus atitinkantis KTU informatikos bakalauro baigiamojo darbo rašto šablonas. 
 
-Iš esmės tai yra įvairių egzistuojančių LaTeX šablonų
-([KTU-LaTeX](https://github.com/Dominyk4s/KTU-LaTeX),
-[ktu-latex-template](https://github.com/jakutis/ktu-latex-template),
-[bachelor_thesis_template_vu_mif_se](https://github.com/LIKS/bachelor_thesis_template_vu_mif_se)) mišinys,
-kuriame yra palikta tik tai, ko reikia.
+Iš esmės tai yra įvairių egzistuojančių LaTeX šablonų ([KTU-LaTeX](https://github.com/Dominyk4s/KTU-LaTeX), [ktu-latex-template](https://github.com/jakutis/ktu-latex-template), [bachelor_thesis_template_vu_mif_se](https://github.com/LIKS/bachelor_thesis_template_vu_mif_se)) mišinys, kuriame yra palikta tik tai, ko reikia.
 
 [Sugeneruoto PDF pavyzdys](main.pdf)
 
