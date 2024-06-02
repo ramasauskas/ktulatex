@@ -1,0 +1,38 @@
+\section{Realizacija ir testavimas}
+\subsection{Sistemos realizacijos modelis}
+\subsection{Taikomo dirbtinio intelekto sprendimo analizė}
+\subsubsection{Duomenų rinkinys}
+\subsubsection{Modelio tikslumo įvertinimas}
+\subsubsection{Modelio tikslumo rezultatai}
+Buvo realizuotas modelis, paremtas \cite{attpaper} straipsniu. Rezultatai pateikiami \ref{tab:findparam} lentelėje.
+Paveiklas pateikiamas \ref{fig:ktu_logo} pav.
+\begin{table}[H]
+\caption{Modelio rezultatai su skirtingais hiperparametrais}
+\centering
+\begin{tabular}{ccccc}
+\toprule
+\multicolumn{2}{c}{\textbf{Prognozavimo langas $W'$}} & \multicolumn{3}{c}{\textbf{Enkoderių blokai $U$}} \\
+\cmidrule(lr){1-2} \cmidrule(lr){3-5}
+\textbf{Ilgis} & \textbf{F1} & \textbf{Blokų kiekis} & \textbf{F1} & \textbf{Vid. apmokymo sparta (it./s)} \\
+\midrule
+1 & 0,9542 & 1 & 0,9628 & 110,21\\
+2 & \textbf{0,9628} & 2  & 0,9684 & 63,43 \\
+3 & 0,9620 & 3  & 0,9711 & 43,65\\
+4 & 0,9623 & 4  &\textbf{0,9782} & 31,65 \\
+\bottomrule
+\end{tabular}
+\label{tab:findparam}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics{ktu.pdf}
+\caption{KTU logotipas}
+\label{fig:ktu_logo}
+\end{figure}
+
+\begin{equation}
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right) V
+\end{equation}
+\subsection{Sistemos realizacijos testavimas}
+\subsection{Sukurtos sistemos trūkumai, apribojimai bei tolimesnio plėtojimo galimybės}

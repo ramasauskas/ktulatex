@@ -1,0 +1,32 @@
+\documentclass[]{ktu}
+\usepackage{times}
+
+\begin{document}
+\renewcommand{\listfigurename}{Paveikslų sąrašas}
+
+\include{titlepage}
+\include{titlepage_review}
+\include{honesty}
+\include{summary_lt}
+\include{summary_en}
+\include{problem}
+\setstretch{1.1} % Jog tilptu viskas viename puslapyje
+\tableofcontents
+\setstretch{1.15}
+\pagebreak
+\listoftables
+\addcontentsline{toc}{section}{Lentelių sąrašas}
+\pagebreak
+\listoffigures
+\addcontentsline{toc}{section}{Paveikslų sąrašas}
+\pagebreak
+\include{ivadas}
+\include{analize}
+\include{projektas}
+\include{rezultatai}
+\include{dokumentacija}
+\include{isvados}
+\printbibliography
+\addcontentsline{toc}{section}{Literaturos sąrašas}
+\end{document}
+
