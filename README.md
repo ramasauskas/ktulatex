@@ -9,6 +9,8 @@ Iš esmės tai yra įvairių egzistuojančių LaTeX šablonų
 [bachelor_thesis_template_vu_mif_se](https://github.com/LIKS/bachelor_thesis_template_vu_mif_se)) mišinys,
 kuriame yra palikta tik tai, ko reikia.
 
+[Sugeneruoto PDF pavyzdys](main.pdf)
+
 ## Kodėl?
 
 - KTU dar vis (2024-06-02) neturi oficialaus LaTeX šablono
